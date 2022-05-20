@@ -1,0 +1,14 @@
+---
+permalink: sm-mirroring/mirror-volumes-asynchronously.html 
+sidebar: sidebar 
+keywords: mirror, volumes, asynchronously 
+summary: 藉由非同步鏡射功能、磁碟區可以有兩個實體複本、以提高資料可用度並將停機時間降至最低。每個非同步鏡射關係都涉及一個主要角色的磁碟區、以及一個次要角色的磁碟區（位於不同的儲存陣列上）。 
+---
+= 非同步鏡射磁碟區
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+藉由非同步鏡射功能、磁碟區可以有兩個實體複本、以提高資料可用度並將停機時間降至最低。每個非同步鏡射關係都涉及一個主要角色的磁碟區、以及一個次要角色的磁碟區（位於不同的儲存陣列上）。

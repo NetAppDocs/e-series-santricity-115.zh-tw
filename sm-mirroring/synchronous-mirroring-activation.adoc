@@ -1,0 +1,31 @@
+---
+permalink: sm-mirroring/synchronous-mirroring-activation.html 
+sidebar: sidebar 
+keywords: synchronous, mirror, activation 
+summary: 在儲存陣列上建立第一個同步鏡射配對時、同步鏡射功能會自動啟動。 
+---
+= 同步鏡射啟動
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在儲存陣列上建立第一個同步鏡射配對時、同步鏡射功能會自動啟動。
+
+當同步鏡射功能啟動時、System Manager會執行下列動作：
+
+* 保留控制器HIC編號最高的連接埠、以進行鏡射資料傳輸。
++
+只有鏡射配對中次要Volume的遠端慣用控制器擁有者、才會接受在此連接埠上接收的I/O要求。（允許保留主磁碟區。）
+
+* 建立兩個保留容量磁碟區、每個控制器各一個磁碟區、用於記錄寫入資訊、以便從控制器重設和其他暫時性中斷中恢復。
++
+每個磁碟區的容量為128個mib。不過、如果將磁碟區放在資源池中、則每個磁碟區將保留4 GiB。
+
+
+
+使用同步鏡射功能、特定儲存陣列上所支援的磁碟區數量會受到限制。在啟動同步鏡射之前、請先確定儲存陣列上已設定的磁碟區數量少於支援的限制。當同步鏡射處於作用中狀態時、所建立的兩個保留容量磁碟區會根據磁碟區限制進行計數。
+
+如果您稍後需要停用同步鏡像、請前往功能表：Storage（同步鏡像）> Uncommon Tasks（非常用工作）> Deacted]（停用）。

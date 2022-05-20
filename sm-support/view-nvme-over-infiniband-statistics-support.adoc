@@ -1,0 +1,34 @@
+---
+permalink: sm-support/view-nvme-over-infiniband-statistics-support.html 
+sidebar: sidebar 
+keywords: view, nvme, infiniband, statistics, packages 
+summary: 您可以檢視儲存陣列的NVMe over InfiniBand連線相關資料。 
+---
+= 檢視NVMe over InfiniBand統計資料套件
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視儲存陣列的NVMe over InfiniBand連線相關資料。
+
+System Manager會顯示這些類型的NVMe over InfiniBand統計資料。所有統計資料均為唯讀、無法設定。
+
+* * NVMe控制器統計資料*-提供NVMe控制器的統計資料、包括逾時和連線故障。
+* * NVMe佇列統計資料*-提供NVMe佇列的統計資料、包括連線要求和命令狀態。
+
+
+您可以將每個統計資料檢視為原始統計資料或是基準統計資料。原始統計資料是自控制器啟動以來所收集的所有統計資料。比較基準統計資料是自您設定基準時間以來所收集的時間點統計資料。
+
+您可以從「System（系統）」頁面（功能表：「Settings[System]（設定[系統]）」）或「Support（支援）」頁面存取NVMe over InfiniBand統計資料。這些指示說明如何從「支援」頁面存取統計資料。
+
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 選取*檢視InfiniBand上的NVMe統計資料套件*。
+. 若要設定基準線、請按一下*設定新的基準線*。
++
+設定基準可為統計資料的收集作業設定新的起點。所有NVMe統計資料都使用相同的基準。
+
+

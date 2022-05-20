@@ -1,0 +1,16 @@
+---
+permalink: sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html 
+sidebar: sidebar 
+keywords: workflow, mirror, volume, synchronously 
+summary: 在「系統管理程式」中SANtricity 、您可以依照下列步驟同步鏡射磁碟區。 
+---
+= 同步鏡射磁碟區的工作流程
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在「系統管理程式」中SANtricity 、您可以依照下列步驟同步鏡射磁碟區。
+
+image::../media/sam1130-flw-sync-create.gif[Sam1130 FLW同步建立]

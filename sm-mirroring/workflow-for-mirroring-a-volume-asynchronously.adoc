@@ -1,0 +1,24 @@
+---
+permalink: sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html 
+sidebar: sidebar 
+keywords: workflow, mirroring, volume asynchronously 
+summary: 在System Manager中、您可以依照下列步驟、以非同步方式鏡射磁碟區。 
+---
+= 非同步鏡射磁碟區的工作流程
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在System Manager中、您可以依照下列步驟、以非同步方式鏡射磁碟區。
+
+image::../media/sam1130-flw-async-set-up-mirroring.gif[Sam1130 FLW非同步設定鏡射]
+
+
+
+== 工作流程：在未使用System Manager管理的舊系統上、為主要磁碟區完成鏡射配對
+
+如果您在未使用System Manager管理的舊系統上建立主要Volume、您可以使用SANtricity 「支援系統管理程式」來建立次要Volume。
+
+image::../media/workflow-for-mirroring-volume-asynchronously.png[非同步鏡射Volume的工作流程]

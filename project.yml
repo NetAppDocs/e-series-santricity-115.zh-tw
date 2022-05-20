@@ -1,0 +1,21 @@
+---
+settings:
+  name: SANtricity 11.5
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr
+sidebar:
+  entries:
+  - title: 地方：11.5文檔SANtricity
+    url: "/index.html"
+  - section: sm-interface
+  - section: sm-storage
+  - section: sm-mirroring
+  - section: sm-hardware
+  - section: sm-settings
+  - section: sm-support
+  - title: 法律聲明
+    url: "/legal-notices.html"

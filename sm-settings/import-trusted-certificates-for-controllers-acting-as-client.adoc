@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html 
+sidebar: sidebar 
+keywords: import, trusted, certificates, controllers 
+summary: 從憑證授權單位（CA）接收數位憑證之後、您可以匯入控制器的憑證鏈結（中繼和根）。 
+---
+= 匯入控制器的信任憑證
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+從憑證授權單位（CA）接收數位憑證之後、您可以匯入控制器的憑證鏈結（中繼和根）。
+
+.開始之前
+* 您必須以包含安全管理員權限的使用者設定檔登入。否則、不會顯示憑證功能。
+* 您已產生憑證簽署要求（.CSR檔案）、並將其傳送至CA。
+* CA傳回信任的憑證檔案。
+* 憑證檔案會安裝在您的本機系統上。
+
+
+本工作說明如何上傳儲存陣列控制器的信任憑證。
+
+.步驟
+. 選取功能表：設定[憑證]。
+. 從*信任的*索引標籤中、選取*匯入*。
++
+隨即開啟一個對話方塊、用於匯入信任的憑證檔案。
+
+. 單擊*瀏覽*以選擇控制器的證書文件。
++
+檔案名稱會顯示在對話方塊中。
+
+. 按一下*匯入*。
+
+
+檔案會上傳並驗證。
+
+匯入管理憑證。

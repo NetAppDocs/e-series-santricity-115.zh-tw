@@ -1,0 +1,24 @@
+---
+permalink: sm-hardware/what-should-i-do-after-configuring-the-management-ports.html 
+sidebar: sidebar 
+keywords: configure, management, ports 
+summary: 如果您變更了儲存陣列的IP位址、您可能會想要更新SANtricity 《統一化管理程式（Cisco Unified Manager）」中的全域陣列檢視。 
+---
+= 設定管理連接埠之後該怎麼辦？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您變更了儲存陣列的IP位址、您可能會想要更新SANtricity 《統一化管理程式（Cisco Unified Manager）」中的全域陣列檢視。
+
+若要在Unified Manager中更新全域陣列檢視、請開啟介面、然後前往功能表：「Manage（管理）」[Discover（探索）。
+
+如果您也使用SANtricity NetApp Storage Manager進行全域陣列管理、請前往「企業管理」視窗（EMW）、然後將儲存陣列重新新增至EMW的清單：
+
+. 在EMW的儲存陣列清單中找到陣列。
+. 從清單中移除陣列。
+. 使用新的IP位址、將儲存陣列重新新增至EMW的清單。
+

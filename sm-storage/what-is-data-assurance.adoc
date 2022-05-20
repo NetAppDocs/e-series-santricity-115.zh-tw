@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-data-assurance.html 
+sidebar: sidebar 
+keywords: data, assurance 
+summary: 資料保證（DA）會檢查並修正主機與儲存陣列之間傳輸資料時可能發生的錯誤。系統管理員的資源池和磁碟區群組層級會顯示DA功能。 
+---
+= 什麼是資料保證？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+資料保證（DA）會檢查並修正主機與儲存陣列之間傳輸資料時可能發生的錯誤。系統管理員的資源池和磁碟區群組層級會顯示DA功能。
+
+資料保證（DA）功能可提升整個儲存系統的資料完整性。DA可讓儲存陣列檢查資料在主機和磁碟機之間移動時可能發生的錯誤。啟用此功能時、儲存陣列會將錯誤檢查代碼（也稱為循環備援檢查或CRC）附加到磁碟區中的每個資料區塊。資料區塊移動之後、儲存陣列會使用這些CRC代碼來判斷傳輸期間是否發生任何錯誤。可能毀損的資料既不會寫入磁碟、也不會傳回主機。
+
+如果您要使用DA功能、請在建立新磁碟區時選取具有DA功能的資源池或磁碟區群組（請在「資源池和磁碟區群組候選項目」表中尋找DA旁邊的* Yes *）。
+
+請務必使用能夠執行DA的I/O介面、將這些啟用DA的磁碟區指派給主機。具備DA功能的I/O介面包括Fibre Channel、SAS、iSCSI over TCP/IP和iSER over InfiniBand（適用於RDMA/IB的iSCSI擴充功能）。SRP不支援DA over InfiniBand。

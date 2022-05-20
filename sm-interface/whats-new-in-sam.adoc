@@ -1,0 +1,70 @@
+---
+permalink: sm-interface/whats-new-in-sam.html 
+sidebar: sidebar 
+keywords: new, santricity, system manager 
+summary: System Manager包含下列新功能。 
+---
+= 更新功能SANtricity
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager包含下列新功能。
+
+
+
+== 11.53版的新功能
+
+此版本僅包含次要的增強功能與修正。
+
+
+
+== 11.52版的新功能
+
+|===
+| 新功能 | 說明 
+
+
+ a| 
+NVMe over FC主機介面
+ a| 
+除了現有的NVMe over RoCE和NVMe over InfiniBand支援外、現在也可訂購EF570或E5700控制器機型的NVMe over Fibre Channel主機連線。System Manager在「NVMe over Fibre Channel details」（NVMe over Fibre Channel詳細資料）下的功能表：設定[系統]中、包含此新連線類型的統計資料。
+
+|===
+
+
+== 11.51版的新功能
+
+此版本僅包含次要的增強功能與修正。
+
+
+
+== 11.50版的新功能
+
+|===
+| 新功能 | 說明 
+
+
+ a| 
+NVMe over RoCE介面
+ a| 
+現在可訂購EF570或E5700 DE系列控制器的NVMe over RoCE主機連線。System Manager包含設定主機網路連線的新功能（可從「硬體」頁面或功能表：「設定」[系統]取得）、以及檢視儲存陣列之NVMe over連線相關資料的功能（可從功能表：「支援」[支援中心]或功能表：「設定」[系統]取得）。
+
+
+
+ a| 
+手動選取磁碟區群組的磁碟機
+ a| 
+除了便利的自動選擇功能、當您建立Volume群組時、也可以使用新選項來選取個別磁碟機。一般而言、建議您選擇自動磁碟機、但個別磁碟機選擇選項適用於具有特殊磁碟機位置需求的環境。
+
+
+
+ a| 
+統一化管理程式SANtricity
+ a| 
+Unified Manager是一種獨立安裝的瀏覽器型應用程式、可探索及管理E2800系列控制器和E5700系列控制器。雖然這項新應用程式並非System Manager的新功能、但它確實提供了新的瀏覽器型企業架構、可從該架構啟動系統管理程式、以供探索到的儲存陣列使用。新的Unified Manager可從Support軟體下載區下載。
+
+|===

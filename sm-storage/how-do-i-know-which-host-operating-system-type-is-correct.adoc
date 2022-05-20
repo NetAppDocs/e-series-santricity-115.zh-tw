@@ -1,0 +1,131 @@
+---
+permalink: sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html 
+sidebar: sidebar 
+keywords: host, operate, system type, correct 
+summary: 主機作業系統類型欄位包含主機的作業系統。您可以從下拉式清單中選取建議的主機類型、或允許主機內容代理程式（HCA）設定主機和適當的主機作業系統類型。 
+---
+= 如何知道哪種主機作業系統類型正確？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+主機作業系統類型欄位包含主機的作業系統。您可以從下拉式清單中選取建議的主機類型、或允許主機內容代理程式（HCA）設定主機和適當的主機作業系統類型。
+
+[cols="2*"]
+|===
+| 主機作業系統類型 | 作業系統（OS）和多重路徑驅動程式 
+
+
+ a| 
+AIX MPIO
+ a| 
+進階互動式執行（AIX）作業系統和原生MPIO驅動程式
+
+
+
+ a| 
+AVT_4M
+ a| 
+硅谷Graphics、Inc.（SGI）專屬多重路徑驅動程式；如需詳細資訊、請參閱SGI安裝文件
+
+
+
+ a| 
+原廠預設值
+ a| 
+這是保留給儲存陣列的初始啟動、應變更以符合特定主機所使用的主機作業系統和多重路徑驅動程式
+
+
+
+ a| 
+HP-UX
+ a| 
+具有原生多重路徑驅動程式的HP-UX OS
+
+
+
+ a| 
+Linux（Atto）
+ a| 
+Linux作業系統與Atto Technology, Inc.驅動程式（必須使用Atto FC HBA）
+
+
+
+ a| 
+Linux（DM-MP）
+ a| 
+Linux作業系統與原生DM-MP驅動程式
+
+
+
+ a| 
+Linux（Pathmanager）
+ a| 
+Linux作業系統與SGI專屬多重路徑驅動程式；如需詳細資訊、請參閱SGI安裝文件
+
+
+
+ a| 
+Mac OS
+ a| 
+Mac OS和Atto Technology, Inc.驅動程式
+
+
+
+ a| 
+ONTAP
+ a| 
+FlexArray
+
+
+
+ a| 
+Solaris（版本11或更新版本）
+ a| 
+Solaris 11或更新版本作業系統與原生MPxIO驅動程式
+
+
+
+ a| 
+Solaris（版本10或更早版本）
+ a| 
+Solaris 10或更早版本的作業系統、以及原生MPxIO驅動程式
+
+
+
+ a| 
+服務
+ a| 
+IBM SAN Volume控制器
+
+
+
+ a| 
+VMware
+ a| 
+ESXi作業系統
+
+
+
+ a| 
+Windows或Windows叢集
+ a| 
+Windows Server OS與Windows MPIO搭配DSM驅動程式
+
+
+
+ a| 
+Windows（Atto）
+ a| 
+Windows作業系統與Atto Technology、Inc.驅動程式
+
+|===
+安裝HCA並將儲存設備連接至主機之後、HCA會透過I/O路徑將主機拓撲傳送至儲存控制器。根據主機拓撲、儲存控制器會自動定義主機和相關的主機連接埠、然後設定主機類型。
+
+[NOTE]
+====
+如果HCA未選取建議的主機類型、您必須在System Manager中手動設定主機類型。
+
+====

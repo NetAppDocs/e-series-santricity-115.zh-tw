@@ -1,0 +1,42 @@
+---
+permalink: sm-settings/step-3-import-signed-certificates-for-the-controllers.html 
+sidebar: sidebar 
+keywords: import, management, certificate, controllers 
+summary: 匯入信任的憑證鏈結之後、您會為儲存陣列中的每個控制器匯入管理（簽署）憑證檔案。 
+---
+= 匯入控制器的管理憑證
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+匯入信任的憑證鏈結之後、您會為儲存陣列中的每個控制器匯入管理（簽署）憑證檔案。
+
+.開始之前
+* 您必須以包含安全管理員權限的使用者設定檔登入。否則、不會顯示憑證功能。
+* 信任的憑證已匯入。
+* CA傳回每個控制器的管理憑證檔案。
+* 管理憑證檔案可在您的本機系統上使用。
+
+
+本工作說明如何上傳管理憑證檔案以進行控制器驗證。
+
+.步驟
+. 選取功能表：設定[憑證]。
+. 從* Array Management（陣列管理）*選項卡中選擇* Import（*匯入）*。
++
+隨即開啟一個對話方塊、用於匯入憑證檔案。
+
+. 按一下*瀏覽*以選取控制器A的檔案如果有兩個控制器、請按第二個*瀏覽*按鈕、選取控制器B的檔案
++
+檔案名稱會顯示在對話方塊中。
+
+. 按一下*匯入*。
++
+檔案已上傳並驗證。
+
+
+
+工作階段會自動終止。您必須再次登入、憑證才能生效。當您再次登入時、新的CA簽署憑證會用於您的工作階段。

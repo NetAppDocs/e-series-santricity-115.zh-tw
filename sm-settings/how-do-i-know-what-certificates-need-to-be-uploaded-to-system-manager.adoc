@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html 
+sidebar: sidebar 
+keywords: how, what, know, certificates, need, uploaded, system manager 
+summary: 對於外部金鑰管理、您可以匯入兩種類型的憑證、以便在儲存陣列和金鑰管理伺服器之間進行驗證、讓兩個實體彼此信任。 
+---
+= 如何知道需要將哪些憑證上傳至System Manager？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+對於外部金鑰管理、您可以匯入兩種類型的憑證、以便在儲存陣列和金鑰管理伺服器之間進行驗證、讓兩個實體彼此信任。
+
+用戶端憑證會驗證儲存陣列的控制器、因此金鑰管理伺服器可以信任其IP位址。若要取得用戶端憑證、您必須完成儲存陣列的CSR、然後將其上傳至金鑰管理伺服器。從伺服器產生用戶端憑證、然後使用System Manager匯入。
+
+金鑰管理伺服器憑證會驗證金鑰管理伺服器、因此儲存陣列可以信任其IP位址。若要取得金鑰管理伺服器憑證、您必須從金鑰管理伺服器產生。

@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/delete-alert-email-addresses.html 
+sidebar: sidebar 
+keywords: delete, email, addresses, alerts 
+summary: 您可以刪除接收電子郵件警示的收件者電子郵件地址。 
+---
+= 刪除警示的電子郵件地址
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以刪除接收電子郵件警示的收件者電子郵件地址。
+
+.步驟
+. 選取功能表：設定[警示]。
+. 選取*電子郵件*索引標籤。
+. 從*電子郵件地址*表格中、選取您要刪除的電子郵件地址。
++
+表右上角的*刪除*按鈕可供選擇。
+
+. 按一下*刪除*。
++
+「*確認刪除電子郵件*」對話方塊隨即開啟。
+
+. 確認操作、然後按一下*刪除*。
+
+
+警示不再傳送至此電子郵件地址。

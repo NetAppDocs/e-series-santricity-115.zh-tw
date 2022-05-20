@@ -1,0 +1,16 @@
+---
+layout: astra 
+permalink: index.html 
+sidebar: sidebar 
+lead: SANtricity software lets you achieve maximum performance and utilization of your E-Series storage arrays for heavy-workload applications. 
+summary: 系統管理程式SANtricity 
+---
+= 軟件文件11.5 SANtricity
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
