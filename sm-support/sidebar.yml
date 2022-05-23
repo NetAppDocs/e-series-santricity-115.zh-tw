@@ -69,8 +69,6 @@ entries:
         url: "/sm-support/view-iser-over-infiniband-statistics-support.html"
     - title: 管理NVMe連線
       entries:
-      - title: 檢視NVMe over InfiniBand統計資料套件
-        url: "/sm-support/view-nvme-over-infiniband-statistics-support.html"
       - title: 檢視NVMe over Fabrics統計資料
         url: "/sm-support/view-nvme-over-fabrics-statistics-support.html"
     - title: 管理AutoSupport
