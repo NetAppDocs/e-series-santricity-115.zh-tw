@@ -6745,4 +6745,5 @@
   <block id="032f90c0276cf4667890ef8286e9c2f0" category="sidebar">管理同步鏡射配對</block>
   <block id="7948b47687c25969b744a950d4151812" category="sidebar">同步鏡射：為什麼我看不到所有磁碟區？</block>
   <block id="389d3a8b3a5730bc57f7f4d0b4d48716" category="sidebar">同步鏡射：為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
+  <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">軟件SANtricity</block>
 </blocks>
