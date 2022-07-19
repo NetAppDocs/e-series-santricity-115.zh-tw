@@ -22,10 +22,10 @@ summary: 您可以建立快照磁碟區、讓主機存取磁碟區或快照一�
 
 建立快照磁碟區的程序有多個步驟：
 
-* <<Step 1: Review members>>
-* <<Step 2: Assign to host>>
-* <<Step 3: Reserve capacity>>
-* <<Step 4: Edit settings>>
+*  1: Review members
+*  2: Assign to host
+*  3: Reserve capacity
+*  4: Edit settings
 
 
 
@@ -46,7 +46,7 @@ summary: 您可以建立快照磁碟區、讓主機存取磁碟區或快照一�
 +
 在「*檢閱成員*」對話方塊中、檢閱選取要轉換成快照磁碟區的磁碟區清單、然後按一下「*下一步*」。
 
-. 前往 <<Step 2: Assign to host>>。
+. 前往  2: Assign to host。
 
 
 
@@ -85,8 +85,8 @@ summary: 您可以建立快照磁碟區、讓主機存取磁碟區或快照一�
 
 . 按一下「*下一步*」、然後執行下列其中一項：
 +
-** 如果您的快照磁碟區是讀取/寫入、則會出現*檢閱容量*對話方塊。前往 <<Step 3: Reserve capacity>>。
-** 如果您的快照Volume為唯讀、則會出現*編輯優先順序*對話方塊。前往 <<Step 4: Edit settings>>。
+** 如果您的快照磁碟區是讀取/寫入、則會出現*檢閱容量*對話方塊。前往  3: Reserve capacity。
+** 如果您的快照Volume為唯讀、則會出現*編輯優先順序*對話方塊。前往  4: Edit settings。
 
 
 
@@ -128,7 +128,7 @@ Volume候選人表格僅顯示支援指定保留容量的候選對象。
 
 
 . （可選）如果您要為快照一致性群組建立快照磁碟區、則「保留容量候選項目」表格中會出現「*變更候選項目*」選項。按一下*變更候選對象*以選取備用的保留容量候選對象。
-. 按一下*下一步*、然後前往 <<Step 4: Edit settings>>。
+. 按一下*下一步*、然後前往  4: Edit settings。
 
 
 

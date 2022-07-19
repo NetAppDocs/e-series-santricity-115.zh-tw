@@ -18,10 +18,10 @@ summary: 您可以建立磁碟區、將儲存容量新增至應用程式專屬�
 
 建立Volume的程序有多個步驟：
 
-* <<Step 1: Select host>>
-* <<Step 2: Select workload>>
-* <<Step 3: Add or edit volumes>>
-* <<Step 4: Review configuration>>
+*  1: Select host
+*  2: Select workload
+*  3: Add or edit volumes
+*  4: Review configuration
 
 
 [NOTE]
@@ -62,7 +62,7 @@ summary: 您可以建立磁碟區、將儲存容量新增至應用程式專屬�
 「*建立磁碟區*」對話方塊隨即出現。
 
 . 從下拉式清單中、選取您要指派磁碟區的特定主機或主機叢集、或選擇稍後指派主機或主機叢集。
-. 若要繼續選取主機或主機叢集的磁碟區建立順序、請按一下* Next*、然後前往 <<Step 2: Select workload>>。
+. 若要繼續選取主機或主機叢集的磁碟區建立順序、請按一下* Next*、然後前往  2: Select workload。
 +
 此時會出現Select Workload對話方塊。
 
@@ -97,7 +97,7 @@ summary: 您可以建立磁碟區、將儲存容量新增至應用程式專屬�
 
 
 . 單擊 * 下一步 * 。
-. 如果您的工作負載與支援的應用程式類型相關聯、請輸入所需的資訊；否則、請前往 <<Step 3: Add or edit volumes>>。
+. 如果您的工作負載與支援的應用程式類型相關聯、請輸入所需的資訊；否則、請前往  3: Add or edit volumes。
 
 
 
@@ -283,7 +283,7 @@ DA可提升整個儲存系統的資料完整性。DA可讓儲存陣列檢查資�
 ====
 
 
-. 若要繼續選取應用程式的磁碟區建立順序、請按一下「*下一步*」、然後前往 <<Step 4: Review configuration>>。
+. 若要繼續選取應用程式的磁碟區建立順序、請按一下「*下一步*」、然後前往  4: Review configuration。
 
 
 

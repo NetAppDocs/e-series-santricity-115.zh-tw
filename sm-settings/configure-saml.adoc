@@ -28,11 +28,11 @@ summary: 若要設定存取管理的驗證、您可以使用儲存陣列內嵌�
 ====
 設定SAML驗證是一個多步驟程序：
 
-* <<Step 1: Upload the IdP metadata file,步驟1：上傳IDP中繼資料檔案>>
-* <<Step 2: Export Service Provider files,步驟2：匯出服務供應商檔案>>
-* <<Step 3: Map roles,步驟3：對應角色>>
-* <<Step 4: Test SSO login,步驟4：測試SSO登入>>
-* <<Step 5: Enable SAML,步驟5：啟用SAML>>
+*  1: Upload the IdP metadata file,步驟1：上傳IDP中繼資料檔案
+*  2: Export Service Provider files,步驟2：匯出服務供應商檔案
+*  3: Map roles,步驟3：對應角色
+*  4: Test SSO login,步驟4：測試SSO登入
+*  5: Enable SAML,步驟5：啟用SAML
 
 
 

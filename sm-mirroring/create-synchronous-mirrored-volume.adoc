@@ -26,9 +26,9 @@ summary: 您可以同步鏡射磁碟區、以便在儲存陣列之間即時複�
 
 同步鏡射磁碟區的程序有多個步驟：
 
-* <<Step 1: Select the primary volume>>
-* <<Step 2: Select the secondary volume>>
-* <<Step 3: Select synchronization settings>>
+*  1: Select the primary volume
+*  2: Select the secondary volume
+*  3: Select synchronization settings
 
 
 一個Volume只能參與一個鏡射關係。
@@ -59,7 +59,7 @@ summary: 您可以同步鏡射磁碟區、以便在儲存陣列之間即時複�
 如果在「Volumes（磁碟區）」並排顯示中選取了一個磁碟區、且該磁碟區符合鏡射資格、則預設會選取該磁碟區。
 
 ====
-. 選擇* Next*並前往 <<Step 2: Select the secondary volume>>。
+. 選擇* Next*並前往  2: Select the secondary volume。
 
 
 
@@ -99,7 +99,7 @@ summary: 您可以同步鏡射磁碟區、以便在儲存陣列之間即時複�
 如果選擇的次要Volume容量大於主要Volume、則可用容量僅限於主要Volume的大小。
 
 ====
-. 單擊* Next*（下一步*）並轉至 <<Step 3: Select synchronization settings>>。
+. 單擊* Next*（下一步*）並轉至  3: Select synchronization settings。
 
 
 
