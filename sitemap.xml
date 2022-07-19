@@ -160,14 +160,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/assign-hot-spares-hardware.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-hardware/assign-hot-spares-hardware.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-hardware/assign-hot-spares-hardware.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/assign-hot-spares-hardware.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -447,14 +447,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -790,14 +790,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/create-asynchronous-mirrored-volume.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/create-asynchronous-mirrored-volume.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/create-asynchronous-mirrored-volume.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/create-asynchronous-mirrored-volume.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -881,14 +881,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/create-synchronous-mirrored-volume.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/create-synchronous-mirrored-volume.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/create-synchronous-mirrored-volume.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/create-synchronous-mirrored-volume.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -1476,14 +1476,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-interface/how-do-i-know-which-host-operating-system-type-is-correct.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-interface/how-do-i-know-which-host-operating-system-type-is-correct.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -1609,13 +1609,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/increase-reserved-capacity.html</loc>
-      
-      <lastmod>2022-05-21T03:01:04+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/increase-reserved-capacity.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
@@ -1623,14 +1616,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-support/</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/increase-reserved-capacity.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-support/</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -1659,6 +1652,13 @@
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/</loc>
+      
+      <lastmod>2022-05-21T03:01:04+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -1931,14 +1931,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/replace-drive-logically-hardware.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-hardware/replace-drive-logically-hardware.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-hardware/replace-drive-logically-hardware.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/replace-drive-logically-hardware.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -2052,7 +2052,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115//search.html</loc>
       
-      <lastmod>2022-05-27T14:08:34+00:00</lastmod>
+      <lastmod>2022-07-19T11:41:54+00:00</lastmod>
       
     </url>
   
@@ -2666,14 +2666,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/what-are-the-differences-between-pools-and-volume-groups.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-interface/what-are-the-differences-between-pools-and-volume-groups.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-interface/what-are-the-differences-between-pools-and-volume-groups.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/what-are-the-differences-between-pools-and-volume-groups.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -2932,14 +2932,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/what-is-a-hot-spare-drive.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-interface/what-is-a-hot-spare-drive.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-interface/what-is-a-hot-spare-drive.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/what-is-a-hot-spare-drive.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -2974,14 +2974,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/what-is-a-volume-group.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-interface/what-is-a-volume-group.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-interface/what-is-a-volume-group.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/what-is-a-volume-group.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -3114,14 +3114,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/what-is-shelf-loss-protection-and-drawer-loss-protection.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/what-is-shelf-loss-protection-and-drawer-loss-protection.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -3373,14 +3373,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/why-do-i-see-more-than-one-reserved-capacity-candidate.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/why-do-i-see-more-than-one-reserved-capacity-candidate.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
@@ -3457,14 +3457,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/why-would-i-change-this-percentage.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/why-would-i-change-this-percentage.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-mirroring/why-would-i-change-this-percentage.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-115/sm-storage/why-would-i-change-this-percentage.html</loc>
       
       <lastmod>2022-05-21T03:01:04+00:00</lastmod>
       

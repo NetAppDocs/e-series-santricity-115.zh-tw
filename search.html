@@ -242,35 +242,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">繁體中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">繁體中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-tw/e-series-santricity-115/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/e-series-santricity-115//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/e-series-santricity-115//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/e-series-santricity-115//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/e-series-santricity-115//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/e-series-santricity-115//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-tw/e-series-santricity-115//search.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/e-series-santricity-115//search.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/e-series-santricity-115//search.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/e-series-santricity-115//search.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/e-series-santricity-115//search.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -314,7 +306,7 @@
   <div class="col-md-3" id="sidebar-height">
       <div class="n-pdf-header">
   <a id="toggleButtonPdf" class="n-pdf-button" type="button">
-    <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>可用的 PDF<span>
+    <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>可用的 PDF<span>
     </span>
   </a>
 </div>
@@ -324,7 +316,7 @@
         
         
         <a target="_blank" href="/zh-tw/e-series-santricity-115/pdfs/fullsite-sidebar/軟件文件11_5_SANtricity.pdf" >
-          <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>此文件網站（PDF 格式）</a>
+          <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>此文件網站（PDF 格式）</a>
 
 
 
@@ -339,7 +331,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/主介面.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             主介面
           </a>
           
@@ -355,7 +347,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/介面總覽.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             介面總覽
           </a>
           
@@ -371,7 +363,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -379,8 +371,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -388,8 +378,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -409,7 +397,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/設定精靈.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             設定精靈
           </a>
           
@@ -425,7 +413,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -433,8 +421,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -454,7 +440,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -484,8 +470,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -493,8 +477,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -514,7 +496,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/儲存陣列管理.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             儲存陣列管理
           </a>
           
@@ -530,7 +512,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -544,8 +526,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -565,7 +545,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -577,8 +557,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -598,7 +576,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -608,8 +586,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -617,8 +593,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -626,8 +600,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -647,7 +619,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/儲存設備.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             儲存設備
           </a>
           
@@ -663,7 +635,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/資源池和Volume群組.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             資源池和Volume群組
           </a>
           
@@ -679,7 +651,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -699,8 +671,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -720,7 +690,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -736,7 +706,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/建立集區和Volume群組.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             建立集區和Volume群組
           </a>
           
@@ -750,8 +720,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -771,7 +739,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理資源池_磁碟區群組和SSD快取.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理資源池、磁碟區群組和SSD快取
           </a>
           
@@ -791,8 +759,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -812,7 +778,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理磁碟機.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理磁碟機
           </a>
           
@@ -826,8 +792,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -847,7 +811,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理保留容量.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理保留容量
           </a>
           
@@ -867,8 +831,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -876,8 +838,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -897,7 +857,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -949,8 +909,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -958,8 +916,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -979,7 +935,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/磁碟區.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             磁碟區
           </a>
           
@@ -995,7 +951,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -1023,8 +979,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1044,7 +998,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -1060,7 +1014,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/建立儲存設備.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             建立儲存設備
           </a>
           
@@ -1068,8 +1022,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1089,7 +1041,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理磁碟區.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理磁碟區
           </a>
           
@@ -1109,8 +1061,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1130,7 +1080,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理應用程式與工作負載.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理應用程式與工作負載
           </a>
           
@@ -1138,8 +1088,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1159,7 +1107,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用複製服務.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用複製服務
           </a>
           
@@ -1175,8 +1123,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1186,8 +1132,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1207,7 +1151,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -1235,8 +1179,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1244,8 +1186,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1265,7 +1205,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/主機.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             主機
           </a>
           
@@ -1281,7 +1221,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -1297,8 +1237,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1318,7 +1256,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -1334,7 +1272,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/設定主機存取.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             設定主機存取
           </a>
           
@@ -1346,8 +1284,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1367,7 +1303,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理主機和主機叢集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理主機和主機叢集
           </a>
           
@@ -1381,8 +1317,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1390,8 +1324,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1411,7 +1343,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -1429,8 +1361,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1438,8 +1368,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1459,7 +1387,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/效能.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             效能
           </a>
           
@@ -1475,7 +1403,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -1483,8 +1411,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1504,7 +1430,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -1514,8 +1440,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1535,7 +1459,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -1553,8 +1477,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1562,8 +1484,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1583,7 +1503,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/快照.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             快照
           </a>
           
@@ -1599,7 +1519,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -1619,8 +1539,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1640,7 +1558,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -1656,7 +1574,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/建立快照和快照物件.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             建立快照和快照物件
           </a>
           
@@ -1668,8 +1586,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1689,7 +1605,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理快照排程.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理快照排程
           </a>
           
@@ -1699,8 +1615,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1720,7 +1634,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理快照映像.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理快照映像
           </a>
           
@@ -1736,8 +1650,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1757,7 +1669,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理Snapshot一致性群組.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理Snapshot一致性群組
           </a>
           
@@ -1769,8 +1681,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1790,7 +1700,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理Snapshot_Volume.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理Snapshot Volume
           </a>
           
@@ -1806,8 +1716,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1815,8 +1723,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1836,7 +1742,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -1860,8 +1766,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1869,8 +1773,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1878,8 +1780,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1899,7 +1799,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/鏡射.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             鏡射
           </a>
           
@@ -1915,7 +1815,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/非同步鏡射.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             非同步鏡射
           </a>
           
@@ -1931,7 +1831,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -1951,8 +1851,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1972,7 +1870,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -1988,7 +1886,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/非同步鏡射磁碟區.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             非同步鏡射磁碟區
           </a>
           
@@ -1996,8 +1894,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2017,7 +1913,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理鏡射一致性群組.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理鏡射一致性群組
           </a>
           
@@ -2037,8 +1933,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2058,7 +1952,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理非同步鏡射配對.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理非同步鏡射配對
           </a>
           
@@ -2068,8 +1962,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2079,8 +1971,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2100,7 +1990,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -2130,8 +2020,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2139,8 +2027,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2160,7 +2046,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/同步鏡射.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             同步鏡射
           </a>
           
@@ -2176,7 +2062,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -2196,8 +2082,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2217,7 +2101,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -2235,7 +2119,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理同步鏡射配對.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理同步鏡射配對
           </a>
           
@@ -2249,8 +2133,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2260,8 +2142,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2281,7 +2161,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -2295,8 +2175,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2304,8 +2182,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2313,8 +2189,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2334,7 +2208,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/硬體.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             硬體
           </a>
           
@@ -2350,7 +2224,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/磁碟櫃.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             磁碟櫃
           </a>
           
@@ -2366,7 +2240,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -2374,8 +2248,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2395,7 +2267,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -2415,8 +2287,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2436,7 +2306,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -2444,8 +2314,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2453,8 +2321,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2474,7 +2340,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/控制器.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             控制器
           </a>
           
@@ -2490,7 +2356,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -2500,8 +2366,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2521,7 +2385,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -2551,8 +2415,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2572,7 +2434,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -2596,8 +2458,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2605,8 +2465,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2626,7 +2484,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/磁碟機.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             磁碟機
           </a>
           
@@ -2642,7 +2500,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -2654,8 +2512,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2675,7 +2531,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -2699,8 +2555,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2720,7 +2574,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -2730,8 +2584,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2739,8 +2591,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2748,8 +2598,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2769,7 +2617,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/設定.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             設定
           </a>
           
@@ -2785,7 +2633,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/警示.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             警示
           </a>
           
@@ -2801,7 +2649,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -2809,8 +2657,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2830,7 +2676,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -2846,7 +2692,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理電子郵件警示.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理電子郵件警示
           </a>
           
@@ -2860,8 +2706,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2881,7 +2725,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理SNMP警示.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理SNMP警示
           </a>
           
@@ -2899,8 +2743,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2920,7 +2762,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理系統記錄警示.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理系統記錄警示
           </a>
           
@@ -2932,8 +2774,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2941,8 +2781,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2962,7 +2800,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -2972,8 +2810,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2981,8 +2817,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3002,7 +2836,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/系統.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             系統
           </a>
           
@@ -3018,7 +2852,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/儲存陣列設定.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             儲存陣列設定
           </a>
           
@@ -3034,7 +2868,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -3044,8 +2878,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3065,7 +2897,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -3093,8 +2925,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3114,7 +2944,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -3128,8 +2958,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3137,8 +2965,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3158,7 +2984,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/iSCSI設定.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             iSCSI設定
           </a>
           
@@ -3174,14 +3000,12 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3201,7 +3025,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -3221,8 +3045,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3242,7 +3064,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -3254,8 +3076,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3263,8 +3083,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3284,7 +3102,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/系統_NVMe設定.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             系統：NVMe設定
           </a>
           
@@ -3300,7 +3118,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -3308,8 +3126,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3329,7 +3145,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -3339,8 +3155,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3360,7 +3174,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -3372,8 +3186,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3381,8 +3193,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3402,7 +3212,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/附加功能.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             附加功能
           </a>
           
@@ -3418,7 +3228,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -3426,8 +3236,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3447,7 +3255,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -3457,8 +3265,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3466,8 +3272,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3487,7 +3291,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/安全金鑰管理.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             安全金鑰管理
           </a>
           
@@ -3503,7 +3307,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -3513,8 +3317,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3534,7 +3336,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -3554,8 +3356,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3575,7 +3375,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -3595,8 +3395,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3604,8 +3402,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3613,8 +3409,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3634,7 +3428,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/存取管理.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             存取管理
           </a>
           
@@ -3650,7 +3444,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -3666,8 +3460,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3687,7 +3479,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -3719,8 +3511,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3740,7 +3530,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -3760,8 +3550,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3769,8 +3557,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3790,7 +3576,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/憑證.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             憑證
           </a>
           
@@ -3806,7 +3592,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -3814,8 +3600,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3835,7 +3619,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -3859,8 +3643,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3880,7 +3662,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -3892,8 +3674,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3901,8 +3681,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3910,8 +3688,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3931,7 +3707,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/支援.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             支援
           </a>
           
@@ -3947,7 +3723,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/支援中心.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             支援中心
           </a>
           
@@ -3963,7 +3739,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -3971,8 +3747,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3992,7 +3766,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -4008,7 +3782,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/檢視儲存陣列資訊.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             檢視儲存陣列資訊
           </a>
           
@@ -4016,8 +3790,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4037,7 +3809,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/收集診斷資料.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             收集診斷資料
           </a>
           
@@ -4053,8 +3825,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4074,7 +3844,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/針對儲存陣列狀態採取恢復行動.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             針對儲存陣列狀態採取恢復行動
           </a>
           
@@ -4086,8 +3856,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4107,7 +3875,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理iSCSI連線.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理iSCSI連線
           </a>
           
@@ -4125,7 +3893,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/檢視不同類型的iSCSI統計資料.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             檢視不同類型的iSCSI統計資料
           </a>
           
@@ -4141,8 +3909,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4156,8 +3922,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4177,14 +3941,12 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理NVMe連線.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理NVMe連線
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -4204,7 +3966,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/管理AutoSupport.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             管理AutoSupport
           </a>
           
@@ -4222,8 +3984,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4231,8 +3991,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -4252,7 +4010,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -4270,8 +4028,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4279,8 +4035,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -4300,7 +4054,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/事件記錄.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             事件記錄
           </a>
           
@@ -4316,7 +4070,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -4324,8 +4078,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4345,14 +4097,12 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -4360,8 +4110,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -4381,7 +4129,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/升級中心.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             升級中心
           </a>
           
@@ -4397,7 +4145,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -4407,8 +4155,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4428,7 +4174,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/使用方法.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             使用方法
           </a>
           
@@ -4440,8 +4186,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4461,7 +4205,7 @@
               href="/zh-tw/e-series-santricity-115/pdfs/sidebar/常見問題集.pdf" 
             
           >
-            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/e-series-santricity-115/images/pdf.png" alt="" width="16" height="16"/>
             常見問題集
           </a>
           
@@ -4475,8 +4219,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4484,8 +4226,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -4493,21 +4233,18 @@
   
 
 
-
-          
         </li>
       </ul>
     
 
   
-
 
 
 
 </li></ul>
   <div class="zip-pdf-link-container" style="display: none;">   
     <a href="#" id="zipPdf">
-      <img src="/zh-tw/e-series-santricity-115/images/pdf-zip.png" width="16" height="16"/>
+      <img src="/zh-tw/e-series-santricity-115/images/pdf-zip.png" alt="" width="16" height="16"/>
       <pre>個別 PDF 文件的集合<span class="zip-size"></span></pre>
     </a><div id="zip-link-popup" class="hide">
     <div class="inner-modal">
@@ -4540,7 +4277,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-tw/e-series-santricity-115/index.html">
         地方：11.5文檔SANtricity
       </a></li><li class="subfolders "><a href="#">
@@ -5997,6 +5734,8 @@
   data-did-you-mean="搜尋 {suggestion}。" 
   data-no-results-found-did-you-mean="找不到符合 {query} 的相關結果。您是否要找的是{suggestion}？" 
   data-results-found="找到 {hitCount} 筆結果"
+  data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+  data-error-reset="Reset Search"
   data-sk-es-pf-indexes=""
   data-flavor=""></div>
   <button class="search-all-icon n-property-bar__search-toggle-button" type="button">
@@ -6153,7 +5892,9 @@
     </script>
     <script src='/zh-tw/e-series-santricity-115/js/www-ntap.js'></script>
     <script src='/zh-tw/e-series-santricity-115/js/tabbed-blocks.js'></script>
+    <script src='/zh-tw/e-series-santricity-115/js/sidebar.js'></script>
   </body><script>
+    /*
       if(hasParameter(window.location.search,'q')) {
         var queryString = decodeURI(getParameter(window.location.search, 'q'));
         document.getElementsByClassName("sk-search-box__text")[0].setAttribute("value", queryString);
@@ -6176,4 +5917,5 @@
         param = param || "";
         return (searchString.indexOf("?"+param+"=") != -1 || searchString.indexOf("&"+param+"=") != -1);
       }
+      */
   </script></html>
