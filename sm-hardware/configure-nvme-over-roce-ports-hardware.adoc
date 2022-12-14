@@ -19,6 +19,7 @@ summary: 如果您的控制器包含NVMe over RoCE（透過整合式乙太網路
 * 您必須知道主機連線的IP位址。
 
 
+.關於這項工作
 您可以從「Hardware（硬體）」頁面或功能表：「Settings[System]（設定[系統]）」存取NVMe over RoCE組態。本工作說明如何從「*硬體*」頁面設定連接埠。
 
 [NOTE]
@@ -47,6 +48,7 @@ NVMe over RoCE設定和功能只有在儲存陣列的控制器包含NVMe over Ro
 
 +
 .欄位詳細資料
+[%collapsible]
 ====
 |===
 | 連接埠設定 | 說明 
@@ -84,6 +86,7 @@ MTU大小（按一下「Show More port settings（顯示更多連接埠設定）
 . 自動或手動設定IPv6和/或IPv6設定。
 +
 .欄位詳細資料
+[%collapsible]
 ====
 |===
 | 連接埠設定 | 說明 

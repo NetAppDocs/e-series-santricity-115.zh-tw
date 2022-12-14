@@ -19,6 +19,7 @@ summary: 如果您的控制器包含NVMe over InfiniBand連線、您可以從「
 * 您必須知道主機連線的IP位址。
 
 
+.關於這項工作
 您可以從「Hardware（硬體）」頁面或功能表：「Settings[System]（設定[系統]）」存取NVMe over InfiniBand組態。本工作說明如何從「*硬體*」頁面設定連接埠。
 
 [NOTE]

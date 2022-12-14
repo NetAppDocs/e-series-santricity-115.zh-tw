@@ -20,6 +20,7 @@ summary: 您可以變更磁碟區群組的RAID層級、以符合存取磁碟區�
 * 您無法變更集區的RAID層級。System Manager會自動將集區設定為RAID 6。
 
 
+.關於這項工作
 此作業開始後、您將無法取消。在此作業期間、您的資料仍可繼續使用。
 
 深入瞭解RAID層級
@@ -83,4 +84,5 @@ Volume Group設定對話方塊隨即出現。
 
 
 
+.結果
 當您變更Volume群組的RAID層級時、System Manager會變更組成Volume群組之每個Volume的RAID層級。在作業期間、效能可能會稍微受到影響。
