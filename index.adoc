@@ -1,5 +1,5 @@
 ---
-layout: astra 
+layout: landing-page 
 permalink: index.html 
 sidebar: sidebar 
 lead: SANtricity software lets you achieve maximum performance and utilization of your E-Series storage arrays for heavy-workload applications. 
